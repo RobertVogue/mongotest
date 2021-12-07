@@ -1,5 +1,10 @@
 const mongo = require('./mongo')
 const hpSchema = require('./schemas/hp-schema')
+const hpRouter = require('./routes/request')
+const express = require('express')
+const app = express()
+app.use("/hp", hpRouter)
+app.use(express.json())
 
 const connectToMongoDB = async () => {
     await mongo().then(async (mongoose) => {
