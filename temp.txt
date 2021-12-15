@@ -1,0 +1,16 @@
+.\mongoimport --db aicc-db --collection accounts --authenticationDatabase admin --username root --password root --file C:\Users\bo.vogtritter\Downloads\hpset\accounts.json
+.\mongoimport --db aicc-db --collection categories --authenticationDatabase admin --username root --password root --file C:\Users\bo.vogtritter\Downloads\hpset\categories.json
+.\mongoimport --db aicc-db --collection channels --authenticationDatabase admin --username root --password root --file C:\Users\bo.vogtritter\Downloads\hpset\channels.json
+.\mongoimport --db aicc-db --collection countries --authenticationDatabase admin --username root --password root --file C:\Users\bo.vogtritter\Downloads\hpset\countries.json
+.\mongoimport --db aicc-db --collection currencies --authenticationDatabase admin --username root --password root --file C:\Users\bo.vogtritter\Downloads\hpset\currencies.json
+.\mongoimport --db aicc-db --collection families --authenticationDatabase admin --username root --password root --file C:\Users\bo.vogtritter\Downloads\hpset\families.json
+.\mongoimport --db aicc-db --collection lines --authenticationDatabase admin --username root --password root --file C:\Users\bo.vogtritter\Downloads\hpset\lines.json
+.\mongoimport --db aicc-db --collection markets --authenticationDatabase admin --username root --password root --file C:\Users\bo.vogtritter\Downloads\hpset\markets.json
+.\mongoimport --db aicc-db --collection platforms --authenticationDatabase admin --username root --password root --file C:\Users\bo.vogtritter\Downloads\hpset\platforms.json
+.\mongoimport --db aicc-db --collection roles --authenticationDatabase admin --username root --password root --file C:\Users\bo.vogtritter\Downloads\hpset\roles.json
+.\mongoimport --db aicc-db --collection rtms --authenticationDatabase admin --username root --password root --file C:\Users\bo.vogtritter\Downloads\hpset\rtms.json
+.\mongoimport --db aicc-db --collection series --authenticationDatabase admin --username root --password root --file C:\Users\bo.vogtritter\Downloads\hpset\series.json
+.\mongoimport --db aicc-db --collection skuMLOpsMapping --authenticationDatabase admin --username root --password root --file C:\Users\bo.vogtritter\Downloads\hpset\skuMLOpsMapping.json
+.\mongoimport --db aicc-db --collection subcategories --authenticationDatabase admin --username root --password root --file C:\Users\bo.vogtritter\Downloads\hpset\subcategories.json
+.\mongoimport --db aicc-db --collection teams --authenticationDatabase admin --username root --password root --file C:\Users\bo.vogtritter\Downloads\hpset\teams.json
+.\mongoimport --db aicc-db --collection users --authenticationDatabase admin --username root --password root --file C:\Users\bo.vogtritter\Downloads\hpset\users.json

@@ -12,4 +12,4 @@ const hpSchema = mongoose.Schema(
         categoryObjId: Number
     })
 
-module.exports = mongoose.model('hp', hpSchema)
+module.exports = mongoose.model('aicc-db', hpSchema)
